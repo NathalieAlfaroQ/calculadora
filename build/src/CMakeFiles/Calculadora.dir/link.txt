@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Calculadora.dir/main.cc.o CMakeFiles/Calculadora.dir/token.cc.o CMakeFiles/Calculadora.dir/tokenizer.cc.o CMakeFiles/Calculadora.dir/shunting_yard.cc.o CMakeFiles/Calculadora.dir/postfijo.cc.o CMakeFiles/Calculadora.dir/calculadora.cc.o -o Calculadora 
