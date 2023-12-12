@@ -1,22 +1,6 @@
 #include <postfijo.hh>
 #include <stack>
 
-/*
-class Postfijo {
-private:
-    std::queue<Token*> cola;
-    std::string error;
-    bool valid;
-    double resultado;    
-    void Evaluar();
-public:
-    Postfijo(std::queue<Token*> cola);
-    std::string Error() const;
-    bool IsValid() const;
-    double Resultado() const;
-};
-*/
-
 Postfijo::Postfijo(std::queue<Token*> cola)
     : cola(cola)
     , error("")
