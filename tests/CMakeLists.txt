@@ -8,6 +8,7 @@ set(TESTFILES
   shunting_yard_test.cc
   token_test.cc
   tokenizer_test.cc
+  postfijo_test.cc
   
 
 # Pruebas de ejemplo (también en test/):

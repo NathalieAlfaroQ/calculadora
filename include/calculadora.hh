@@ -4,20 +4,20 @@
 #include <iostream>
 #include <string>
 
-bool ask_user(std::istream& in, std::ostream& out);
+bool ask_user(std::istream &in, std::ostream &out);
 
-class Calculadora {
+class Calculadora
+{
 private:
-    std::string expresion;
-    std::string error;
-    double resultado;
-    void Evaluar();
+  std::string expresion;
+  std::string error;
+  double resultado;
+  void Evaluar();
 
 public:
-    Calculadora(std::string expresion);
-    double Resultado() const;
-    std::string Error() const;
-    bool IsValid() const;
+  Calculadora(std::string expresion);
+  double Resultado() const;
+  std::string Error() const;
+  bool IsValid() const;
 };
-
 #endif

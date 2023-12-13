@@ -3,15 +3,16 @@
 #include <iostream>
 #include <string>
 
-bool ask_user(std::istream& in, std::ostream& out);
+bool ask_user(std::istream &in, std::ostream &out);
 
 int main()
 {
-    std::cout << "Calculadora" << std::endl;
-    std::cout << "Esta calculadora permite evaluar expresiones. Para salir simplemente inserte una cadena vacía" << std::endl;
+  std::cout << "Calculadora" << std::endl;
+  std::cout << "Esta calculadora permite evaluar expresiones. Para salir simplemente inserte una cadena vacía" << std::endl;
 
-    while (ask_user(std::cin, std::cout)) { };
+  while (ask_user(std::cin, std::cout))
+  {
+  };
 
-    return 0;
+  return 0;
 }
-

@@ -5,17 +5,16 @@
 #include <stack>
 #include <tokenizer.hh>
 
-class ShuntingYard {
+class ShuntingYard
+{
 private:
-    ITokenizer& tokenizer;
+  ITokenizer &tokenizer;
 
 public:
-    ShuntingYard(ITokenizer& tokenizer)
-        : tokenizer(tokenizer)
-    {
-    }
-
-    std::queue<Token*> ConvertirAPostfijo();
+  ShuntingYard(ITokenizer &tokenizer)
+      : tokenizer(tokenizer)
+  {
+  }
+  std::queue<Token *> ConvertirAPostfijo();
 };
-
 #endif
