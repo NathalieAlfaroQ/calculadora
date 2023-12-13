@@ -16,12 +16,12 @@ TEST(CalculadoraTest, Suma1)
   EXPECT_EQ(calculadora.Resultado(), 30);
 }
 
-/*TEST(CalculadoraTest, pruebaResta)
+TEST(CalculadoraTest, pruebaResta)
 {
-    Calculadora calculadora("5 - 3");
+    Calculadora calculadora("55 - 5");
     EXPECT_TRUE(calculadora.IsValid());
-    EXPECT_EQ(calculadora.Resultado(), 2);
-}*/
+    EXPECT_EQ(calculadora.Resultado(), 50);
+}
 
 TEST(CalculadoraTest, Multiplicacion1)
 {
